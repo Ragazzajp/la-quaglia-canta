@@ -1,4 +1,4 @@
-class ChristmasTree {
+public class ChristmasTree {
 
     public static void printTree(int height) {
         System.out.println("I");
