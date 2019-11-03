@@ -1,4 +1,6 @@
-    public class Robot {
+package robot;
+
+public class Robot {
 
         int weight;
         String name;
@@ -17,7 +19,7 @@
             this.eyesColor = eyesColor;
             this.weight = weight;
         }
-/*        Robot(String name, String color, String eyesColor, int weight){
+/*        robot.Robot(String name, String color, String eyesColor, int weight){
             // this(name, eyesColor);
             this.name = name;
             this.eyesColor = eyesColor;

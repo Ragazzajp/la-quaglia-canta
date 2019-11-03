@@ -1,3 +1,5 @@
+package robot;
+
 public class BlueRobot extends Robot {
     BlueRobot(String name, String eyesColor, int weight) {
         super(name, eyesColor, weight);
