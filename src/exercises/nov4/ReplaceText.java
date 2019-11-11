@@ -1,10 +1,12 @@
+package exercises.nov4;
+
 import java.io.*;
 
 public class ReplaceText {
     public static void main(String[] args) throws IOException {
 
         // Aprire file di input
-        File file = new File("C:\\Users\\MD\\Desktop\\la-quaglia-canta\\src\\big.txt");
+        File file = new File("C:\\Users\\MD\\Desktop\\la-quaglia-canta\\src\\exercises\\nov4\\big.txt");
         BufferedReader reader = new BufferedReader(new FileReader(file));
 
         // Aprire file di output
