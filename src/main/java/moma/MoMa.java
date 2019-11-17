@@ -12,7 +12,7 @@ public class MoMa {
         Masterpiece fierySunset = new Masterpiece("Fiery Sunset", "painting", 1973, "Frank Caruso", "an acrylic painting");
         Masterpiece theKiss = new Masterpiece("The Kiss", "painting", 1907, "Gustav Klimt", "a yellow painting");
 
-        List<Masterpiece> paintings = new ArrayList<>();
+        List<Masterpiece> paintings = new ArrayList<Masterpiece>();
         paintings.add(guernica);
         paintings.add(theStarryNight);
         paintings.add(untitled);
