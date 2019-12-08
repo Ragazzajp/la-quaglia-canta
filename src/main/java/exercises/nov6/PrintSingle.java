@@ -11,7 +11,7 @@ public class PrintSingle {
 
         Gson gson= new Gson();
 
-        File file = new File ("C:\\Users\\MD\\Desktop\\la-quaglia-canta\\src\\exercises\\nov6\\country.json");
+        File file = new File ("input/country.json");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 

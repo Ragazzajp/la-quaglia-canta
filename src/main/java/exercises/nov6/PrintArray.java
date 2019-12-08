@@ -11,7 +11,7 @@ public class PrintArray {
 
         Gson gson= new Gson();
 
-        File file = new File ("C:\\Users\\MD\\Desktop\\la-quaglia-canta\\src\\exercises\\nov6\\countries.json");
+        File file = new File ("input/countries.json");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 

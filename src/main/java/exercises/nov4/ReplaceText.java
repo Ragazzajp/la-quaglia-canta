@@ -6,11 +6,11 @@ public class ReplaceText {
     public static void main(String[] args) throws IOException {
 
         // Aprire file di input
-        File file = new File("C:\\Users\\MD\\Desktop\\la-quaglia-canta\\src\\exercises\\nov4\\big.txt");
+        File file = new File("input/big.txt");
         BufferedReader reader = new BufferedReader(new FileReader(file));
 
         // Aprire file di output
-        Writer writer = new FileWriter("Adventures of Marfisa.txt");
+        Writer writer = new FileWriter("target/Adventures of Marfisa.txt");
 
         // leggere ogni riga di input
         String text;
