@@ -1,3 +1,5 @@
+package shapes;
+
 public class ChristmasTree {
 
     public static void printTree(int height) {
@@ -18,6 +20,6 @@ public class ChristmasTree {
     }
 
     public static void main(String[] args) {
-        printTree(2);
+        printTree(10);
     }
 }
